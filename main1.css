@@ -12,6 +12,15 @@ header {
     padding: 16px 0;
 }
 
+header h1,
+section h2 {
+    font-family: "Bungee Inline", serif;
+}
+
+body {
+    font-family: "Roboto", serif;
+}
+
 header nav li {
     display: inline;
     margin-left: 16px;
