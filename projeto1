@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Shop - A  sua loja de games</title>
+    <link rel="stylesheet" href="main1.css">
+</head>
+<header>
+    <div class="container">
+        <h1>Games Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre a loja</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body>
+    <section id="about">
+        <div class="container">
+            <img class="store-front" src="link_IMG" alt="Fachada da loja Games Shop" />
+            <div>
+                <h2>Sobre a loja</h2>
+                <p> A loja é.......</p>
+                <p>
+                    A loja é ........
+                </p>
+                <ul class="brands-list">
+                    <li><img src="link_IMG" alt="Playstation" /></li>
+                    <li><img src="link_IMG" alt="X-Box" /></li>
+                    <li><img src="link_IMG" alt="Nintendo" /></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <h3>Fale conosco</h3>
+                <form>
+                    <input type="text" placeholder="Seu  nome" required />
+                    <input type="email" placeholder="Seu e-mail" required />
+                    <input type="tel" placeholder="Seu telefone (opcional)" />
+                    <textarea placeholder="Sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div>
+                <h3> Nos acompanhe</h3>
+                <ul class="social-links">
+                    <li><a href="link_para_rede" title="Siga-nos no Facebook">
+                        <img src="link_LOGO" alt="Logo do Facebook" /></a></li>
+                    <li><a href="link_para_rede" title="Siga-nos no Instagram">
+                        <img src="link_LOGO" alt="Logo do Instagram" /></a></li>
+                    <li><a href="link_para_rede" title="Visite nosso canal no Youtube">
+                        <img src="link_LOGO" alt="Logo do Youtube" /></a></li>
+                </ul>
+            </div>
+            <div>
+                <h3> Venha até nós</h3>
+                <p>Endereço: Rua dos games, 123</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
