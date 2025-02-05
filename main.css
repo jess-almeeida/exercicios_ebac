@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto 0px auto;
+    width:auto
+}
+#nome h1 {
+    background-color: #a63030;
+    border: 1px solid #003366;
+    padding: 10px;
+    width: 300px;
+    justify-content: space-between;
+    display: inline-block;
+    text-align: center;
+    font-size: 30x;
+    margin-top: auto;
+}
+h1 {
+    color: #003366;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 26px;
+}
+h2 {
+    color: #274360;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h3 {
+    color: #274360;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 14px;
+}
+#noticia h2 {
+    color: hsl(0, 4%, 91%);
+    font-family: Arial, Helvetica, sans-serif;
+    size: 26px;
+    width: 100%;
+    font-weight: 900;
+}
+#noticia p {
+    color: hsl(0, 4%, 91%);
+    font-family: Arial, Helvetica, sans-serif;
+    size: 14px;
+    width: 100%;
+}
+.data {
+    color: #4a4a4a;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 2px;
+    text-align: center;
+    display: block;
+}
+
+header li {
+    display: inline;
+}
+
+header {
+    background-color: #899fb6;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+body > header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+.articles {
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0px auto 0px auto;
+    flex-wrap: wrap;
+}
+
+.noticias {
+    background-color: #f3e5eb;
+    width: 100%;
+}
+
+#noticia {
+    background-color: #d7091a;
+    border: 1px solid #003366;
+    padding: 10px;
+    width: 300px;
+    justify-content: justify;
+    display: block;
+    text-align: center;
+    font-size: 30x;
+    margin-top: auto;   
+}
+.moeda {
+    background-color: #d7ecd5;
+}
+
+.arte {
+    background-color: #b8bbe0;
+}
+
+.mundo {
+    background-color: #e4c3dc;
+}
+
+.tempo {
+    background-color: #a0d8e3;
+}
